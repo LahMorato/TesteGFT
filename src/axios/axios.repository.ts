@@ -3,8 +3,6 @@ const https = require("https");
 const qs = require("qs");
 const axios = require('axios')
 
-require("dotenv").config();
-
 const certificate = fs.readFileSync("teste_gft.pem", { encoding: "utf8" });
 const key = fs.readFileSync("teste_gft.key", { encoding: "utf8" });
 
